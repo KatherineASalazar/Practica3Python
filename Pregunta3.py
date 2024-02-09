@@ -10,7 +10,7 @@ class Circulo:
     def calcular_area(self):
         return math.pi * self.radio**2
 
-# Ejemplo de uso
+
 radio = float(input("Ingrese el radio del círculo: "))
 circulo = Circulo(radio)
 area = circulo.calcular_area()

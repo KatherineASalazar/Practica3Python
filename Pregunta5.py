@@ -31,7 +31,6 @@ class Alumno:
 
 # Ejemplo de uso
 alumno1 = Alumno("Juan", "2022001")
-alumno1.display()
 alumno1.set_edad(20)
-alumno1.set_notas(85, 90, 75)
+alumno1.set_notas(12, 15, 17)
 alumno1.display()
